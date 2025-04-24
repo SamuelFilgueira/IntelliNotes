@@ -9,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{FD18
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliNotes.API", "src\backend\IntelliNotes.API\IntelliNotes.API.csproj", "{9251B1D0-BBA9-4AE4-81E4-144E487D57CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliNotes.Application", "src\backend\IntelliNotes.Application\IntelliNotes.Application.csproj", "{B376DB47-3750-4CFF-B67E-C591BD488FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliNotes.Domain", "src\backend\IntelliNotes.Domain\IntelliNotes.Domain.csproj", "{22788008-89E3-4828-894A-3446DE570BDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelliNotes.Infrastructure", "src\backend\IntelliNotes.Infrastructure\IntelliNotes.Infrastructure.csproj", "{C179CBFC-A99A-42B4-863C-80CB22FFDF4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +25,27 @@ Global
 		{9251B1D0-BBA9-4AE4-81E4-144E487D57CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9251B1D0-BBA9-4AE4-81E4-144E487D57CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9251B1D0-BBA9-4AE4-81E4-144E487D57CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B376DB47-3750-4CFF-B67E-C591BD488FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B376DB47-3750-4CFF-B67E-C591BD488FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B376DB47-3750-4CFF-B67E-C591BD488FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B376DB47-3750-4CFF-B67E-C591BD488FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22788008-89E3-4828-894A-3446DE570BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22788008-89E3-4828-894A-3446DE570BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22788008-89E3-4828-894A-3446DE570BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22788008-89E3-4828-894A-3446DE570BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C179CBFC-A99A-42B4-863C-80CB22FFDF4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C179CBFC-A99A-42B4-863C-80CB22FFDF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C179CBFC-A99A-42B4-863C-80CB22FFDF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C179CBFC-A99A-42B4-863C-80CB22FFDF4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FD189064-B228-47CB-A10C-D5507F42671A} = {8FA750AD-EBB1-4BFF-9F93-797C0D1BCE73}
+		{9251B1D0-BBA9-4AE4-81E4-144E487D57CC} = {FD189064-B228-47CB-A10C-D5507F42671A}
+		{B376DB47-3750-4CFF-B67E-C591BD488FDA} = {FD189064-B228-47CB-A10C-D5507F42671A}
+		{22788008-89E3-4828-894A-3446DE570BDE} = {FD189064-B228-47CB-A10C-D5507F42671A}
+		{C179CBFC-A99A-42B4-863C-80CB22FFDF4C} = {FD189064-B228-47CB-A10C-D5507F42671A}
 	EndGlobalSection
 EndGlobal
