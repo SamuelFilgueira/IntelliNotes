@@ -1,4 +1,4 @@
-﻿namespace IntelliNotes.API.Entities
+﻿namespace IntelliNotes.Domain.Entities
 {
     public class User
     {

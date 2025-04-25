@@ -18,8 +18,4 @@
     <ProjectReference Include="..\IntelliNotes.Domain\IntelliNotes.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="DependecyInjection\" />
-  </ItemGroup>
-
 </Project>
