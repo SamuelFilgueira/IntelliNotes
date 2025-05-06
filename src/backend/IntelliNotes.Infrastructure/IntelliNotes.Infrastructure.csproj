@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.15">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -15,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\IntelliNotes.Application\IntelliNotes.Application.csproj" />
     <ProjectReference Include="..\IntelliNotes.Domain\IntelliNotes.Domain.csproj" />
   </ItemGroup>
 
