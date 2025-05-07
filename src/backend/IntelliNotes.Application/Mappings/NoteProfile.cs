@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AutoMapper;
 
-namespace IntelliNotes.Application.Mappings
+namespace IntelliNotes.Application.Mappings;
+
+public class NoteProfile : Profile
 {
-    public class NoteProfile
-    {
-    }
 }
